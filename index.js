@@ -1,13 +1,17 @@
 // write your code below!
 
 function happyHolidays() {
-  return "Happy Holidays!"
+  return `Happy Holidays!``
 }
 
-happyHolidaysTo(name) {
-  return "Happy Holidays, ${name}!"
+function happyHolidaysTo(name) {
+  return `Happy Holidays, ${name}!
 }
 
-happyHolidayTo(holiday, name) {
-  return "Happy ${holiday}, ${name}! "
-} 
+function happyHolidayTo(holiday, name) {
+  return `Happy ${holiday}, ${name}! `
+}
+
+function holidayCountdown(days, holiday) {
+  return `It's ${days} days until ${holiday}!`
+}
